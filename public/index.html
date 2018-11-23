@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>emotiQuote</title>
+  <link rel="shortcut icon" type="image/x-icon" href="#"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>emotiQuote</h1>
+  </header>
+  <main>
+    <section class="main">
+      <div id="error"></div>
+      <div id="data"></div>
+
+      <form class="search-form" action="index.html" method="post">
+        <label for="search"></label>
+        <input id="search" type="text" name="search" value="" placeholder= "What's on your mind?">
+        <button type="button" name="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <script type="text/javascript" src="./request.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
